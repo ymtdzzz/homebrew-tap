@@ -5,20 +5,20 @@
 class OtelTui < Formula
   desc ""
   homepage ""
-  version "0.0.0-test-docker-02"
+  version "0.0.0-test-docker-04"
 
   on_macos do
     on_intel do
-      url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.0.0-test-docker-02/otel-tui_Darwin_x86_64.tar.gz"
-      sha256 "c12188ed11576e1fa1949358dbcfaa1f4a8751373b4bab9c4d048df8dad141e6"
+      url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.0.0-test-docker-04/otel-tui_Darwin_x86_64.tar.gz"
+      sha256 "4771dd4196fc33163660a9d2d7814304939f86587127f429cfcdb0dd3cac7ccd"
 
       def install
         bin.install "otel-tui"
       end
     end
     on_arm do
-      url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.0.0-test-docker-02/otel-tui_Darwin_arm64.tar.gz"
-      sha256 "dbede3e60ad2babf9874f7a8c26b832e1381d582f916b4457273adf86a8717e0"
+      url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.0.0-test-docker-04/otel-tui_Darwin_arm64.tar.gz"
+      sha256 "632f98ce5aafc6d01f107c1fa463c48bd2c79215064a0ffe92a938e822261d77"
 
       def install
         bin.install "otel-tui"
@@ -29,8 +29,8 @@ class OtelTui < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.0.0-test-docker-02/otel-tui_Linux_x86_64.tar.gz"
-        sha256 "9b4e854f9e8cac674f9eb7751223357a1f6ed9d45c9d57159db8105d68c47c58"
+        url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.0.0-test-docker-04/otel-tui_Linux_x86_64.tar.gz"
+        sha256 "d42d43f4f8cfd1b2ca4c87750109e9db6762c67456b74321f6a78ba16df78f22"
 
         def install
           bin.install "otel-tui"
@@ -39,8 +39,8 @@ class OtelTui < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.0.0-test-docker-02/otel-tui_Linux_arm64.tar.gz"
-        sha256 "49624c3d17497289d5c658d58e8cebd46924347371748b8caf487f8c7338a5b6"
+        url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.0.0-test-docker-04/otel-tui_Linux_arm64.tar.gz"
+        sha256 "467b90f8cef1044e4d56d06f6b8ac9c13d30e782091bc8a7fc2e4d4be1af8708"
 
         def install
           bin.install "otel-tui"
