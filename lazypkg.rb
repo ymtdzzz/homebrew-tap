@@ -5,20 +5,20 @@
 class Lazypkg < Formula
   desc ""
   homepage ""
-  version "0.0.2"
+  version "0.0.3"
 
   on_macos do
     on_intel do
-      url "https://github.com/ymtdzzz/lazypkg/releases/download/v0.0.2/lazypkg_Darwin_x86_64.tar.gz"
-      sha256 "36b91e3c16f73e67373af17b12a2d62977a9eeab876a08d298694afd01ca48c3"
+      url "https://github.com/ymtdzzz/lazypkg/releases/download/v0.0.3/lazypkg_Darwin_x86_64.tar.gz"
+      sha256 "10335f4dc2f14b11a7701c5b30f2acc6432dd41b99b7765516a08ee10c8ec317"
 
       def install
         bin.install "lazypkg"
       end
     end
     on_arm do
-      url "https://github.com/ymtdzzz/lazypkg/releases/download/v0.0.2/lazypkg_Darwin_arm64.tar.gz"
-      sha256 "e15f3a268fdbcdc5e5ae1dbc6f1889ffd73d819d4da35a1e89880bb3660463df"
+      url "https://github.com/ymtdzzz/lazypkg/releases/download/v0.0.3/lazypkg_Darwin_arm64.tar.gz"
+      sha256 "b53ca9745d999a2c06f87d902944835b3dedc70140e15d96f83e8f0d7b9332de"
 
       def install
         bin.install "lazypkg"
@@ -29,8 +29,8 @@ class Lazypkg < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ymtdzzz/lazypkg/releases/download/v0.0.2/lazypkg_Linux_x86_64.tar.gz"
-        sha256 "cad739bad040c340babfc38a3cf5a48eea04dbad1749548740ef46b981caf372"
+        url "https://github.com/ymtdzzz/lazypkg/releases/download/v0.0.3/lazypkg_Linux_x86_64.tar.gz"
+        sha256 "5d815350a8066508757d1751214b527469df3f4e425cfe6c1431ef2d918b4de4"
 
         def install
           bin.install "lazypkg"
@@ -39,8 +39,8 @@ class Lazypkg < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ymtdzzz/lazypkg/releases/download/v0.0.2/lazypkg_Linux_arm64.tar.gz"
-        sha256 "03d71e214115cd2db5f6c9c79bdfdd84a497d2a58a56e4f32e3f006caadefc57"
+        url "https://github.com/ymtdzzz/lazypkg/releases/download/v0.0.3/lazypkg_Linux_arm64.tar.gz"
+        sha256 "62a7acfdf1e1f8e4b13262ed9bd0ed681f075c426d7f704b8b0257ccf37e2c2d"
 
         def install
           bin.install "lazypkg"
