@@ -5,20 +5,20 @@
 class OtelTui < Formula
   desc ""
   homepage ""
-  version "0.4.9"
+  version "0.4.10"
 
   on_macos do
     on_intel do
-      url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.4.9/otel-tui_Darwin_x86_64.tar.gz"
-      sha256 "bdb9a37385f8f760a1ea94e15d1ffceb735218ad1a761bb70af65feca69961ac"
+      url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.4.10/otel-tui_Darwin_x86_64.tar.gz"
+      sha256 "b317be1793647e8e41b2e6c01043bfb8d6dacfb3b8f3d06ccd1ee597dedb491d"
 
       def install
         bin.install "otel-tui"
       end
     end
     on_arm do
-      url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.4.9/otel-tui_Darwin_arm64.tar.gz"
-      sha256 "f0f528078d4b0473a1e6d8eaf14fd058b9235465c0068a8500625fedd7ceea26"
+      url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.4.10/otel-tui_Darwin_arm64.tar.gz"
+      sha256 "0fd702949f19bbc235c128e2ace09d2e33702af31c206a06eba52f0b08079fc6"
 
       def install
         bin.install "otel-tui"
@@ -29,8 +29,8 @@ class OtelTui < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.4.9/otel-tui_Linux_x86_64.tar.gz"
-        sha256 "f74f1edda154d4b93456a415f5249b442f1b693d1d354d0cc9573d914f0ba3c3"
+        url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.4.10/otel-tui_Linux_x86_64.tar.gz"
+        sha256 "5856f7421e351e21e278ac91f91befc0a5c83688db8f06e57b25dce5550d7130"
 
         def install
           bin.install "otel-tui"
@@ -39,8 +39,8 @@ class OtelTui < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.4.9/otel-tui_Linux_arm64.tar.gz"
-        sha256 "9e07bd688202d1f6fe080d464b32b19bd148acfbf9eac43acfbe84b0e9530706"
+        url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.4.10/otel-tui_Linux_arm64.tar.gz"
+        sha256 "922a7d89c8a50ee086dc1cef215224095b86f81796602bad57038c025e2acdac"
 
         def install
           bin.install "otel-tui"
