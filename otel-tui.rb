@@ -10,7 +10,7 @@ class OtelTui < Formula
   on_macos do
     on_intel do
       url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.4.10/otel-tui_Darwin_x86_64.tar.gz"
-      sha256 "b317be1793647e8e41b2e6c01043bfb8d6dacfb3b8f3d06ccd1ee597dedb491d"
+      sha256 "81bfdca047d7c75ab191a499a72a486ea37a7f91c9922352e10e99e9f0d91905"
 
       def install
         bin.install "otel-tui"
@@ -18,7 +18,7 @@ class OtelTui < Formula
     end
     on_arm do
       url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.4.10/otel-tui_Darwin_arm64.tar.gz"
-      sha256 "0fd702949f19bbc235c128e2ace09d2e33702af31c206a06eba52f0b08079fc6"
+      sha256 "9789f58563c93e7f954058f2782b2279a43b9672a8c93d24eb113953a5c5db8b"
 
       def install
         bin.install "otel-tui"
@@ -30,7 +30,7 @@ class OtelTui < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.4.10/otel-tui_Linux_x86_64.tar.gz"
-        sha256 "5856f7421e351e21e278ac91f91befc0a5c83688db8f06e57b25dce5550d7130"
+        sha256 "08d7b9b15a37a79a5aa7038a789724b19207acc9de3b713059f373e52daf17a1"
 
         def install
           bin.install "otel-tui"
@@ -40,7 +40,7 @@ class OtelTui < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/ymtdzzz/otel-tui/releases/download/v0.4.10/otel-tui_Linux_arm64.tar.gz"
-        sha256 "922a7d89c8a50ee086dc1cef215224095b86f81796602bad57038c025e2acdac"
+        sha256 "b2fb7a90052f8d1273d083ae0a2bcbb1ef2eae4a5c215584c363bf0c1c54593b"
 
         def install
           bin.install "otel-tui"
